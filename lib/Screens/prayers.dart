@@ -35,13 +35,13 @@ class Prayers extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              'MONDAY, FEBRUARY 22----1 PETER 4:7-11 \n'
-              'TUESDAY, FEBRUARY 23---- ROMANS 12:9-19\n'
-              'WEDNESDAY, FEBRUARY 24----ACTS 16:35-40\n'
-              'THURSDAY, FEBRUARY 25----1 TIMOTHY 5:9-10; 3:2\n'
-              'FRIDAY, FEBRUARY 26----1 CORINTHIANS 1:18-25\n'
-              'SATURDAY, FEBRUARY 27----1 CORINTHIANS 2:1-5\n'
-              'SUNDAY, FEBRUARY 28---- ACTS 16:11-15, 40; 1 Cor. 1:26-30',
+              'MONDAY, March 8----Hebrews 11:23-31 \n'
+              'TUESDAY, March 9---- Luke 18:35-42 \n'
+              'WEDNESDAY, March 10----Joshua 5:8-12\n'
+              'THURSDAY, March 11----Joshua 6:6-14\n'
+              'FRIDAY, March 12----Joshua 2:15-14\n'
+              'SATURDAY, March 13----Joshua 6:22-25\n'
+              'SUNDAY, March 14---- Joshua 5:13-6:5',
               style: GoogleFonts.barlow(
                 fontSize: 20, //color: Colors.black
               ),
@@ -59,13 +59,13 @@ class Prayers extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              '1. PLEAD THE BLOOD OF JESUS OVER ALL THAT PERTAINS TO YOU.\n'
+              '1. THANK GOD FOR THE PRIVILEGE OF ANOTHER WEEK.\n'
               '\n'
-              '2. EVERY CHALLENGE IN MY FAMILY AND MY LIFE EXPIRE IN THE NAME OF JESUS.\n'
+              '2. PRAY FOR THE EMPOWERMENT OF GOD TO DISLODGE EVERY PLAN WHO IS NOT FROM GOD.\n'
               '\n'
-              '3. ALL CHALLENGE PLAGUING THE NATION, EXPIRE IN THE NAME OF JESUS\n'
+              '3. PRAY FOR AN ENCOUNTER DURING THE REVIVAL PROGRAMME\n'
               '\n'
-              '4. ALL CHALLENGE PLAGUING THE WORLD, EXPIRE IN THE NAME OF JESUS',
+              '4. PRAY FOR FRESH OIL ON THE MAN OF GOD.',
               style: GoogleFonts.barlow(
                 fontSize: 20, //color: Colors.black
               ),

@@ -40,47 +40,43 @@ class _SermonState extends State<Sermon> {
         width: double.infinity,
         height: double.infinity,
         padding: EdgeInsets.all(15),
-        child: ListView(
-          children: [
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                LiveSermonCard(
-                  onTap: () {
-                    setState(() {
-                      loader();
-                      url =
-                          'https://www.facebook.com/newcreationbaptistchurch.bogije.5/videos/858413861682001';
-                      launchURL(url);
-                    });
-                  },
-                  icon: Icons.play_circle_filled,
-                  text: "Join Live\n"
-                      "Sunday Service",
-                ),
-                SizedBox(height: 20),
-                LiveSermonCard(
-                  onTap: () {
-                    setState(() {
-                      url = 'https://mixlr.com/ncbc-bogije';
-                      launchURL(url);
-                    });
-                  },
-                  icon: Icons.play_circle_filled,
-                  text: 'Join Live\n'
-                      'Bible Study',
-                ),
-                SizedBox(height: 50),
-                Text(
-                  'Note:\n'
-                  'Screaming Live Requires Internet Connection Please Make Sure Your Internet Is Connected',
-                  style: GoogleFonts.barlow(
-                    fontSize: 20,
-                    color: Colors.black,
-                  ),
-                )
-              ],
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            LiveSermonCard(
+              onTap: () {
+                setState(() {
+                  loader();
+                  url =
+                      'https://www.facebook.com/newcreationbaptistchurch.bogije.5/videos/858413861682001';
+                  launchURL(url);
+                });
+              },
+              icon: Icons.play_circle_filled,
+              text: "Join Live\n"
+                  "Sunday Service",
             ),
+            SizedBox(height: 20),
+            LiveSermonCard(
+              onTap: () {
+                setState(() {
+                  url = 'https://mixlr.com/ncbc-bogije';
+                  launchURL(url);
+                });
+              },
+              icon: Icons.play_circle_filled,
+              text: 'Join Live\n'
+                  'Bible Study',
+            ),
+            SizedBox(height: 50),
+            Text(
+              'Note:\n'
+              'Screaming Live Requires Internet Connection Please Make Sure Your Internet Is Connected',
+              style: GoogleFonts.barlow(
+                fontSize: 20,
+                color: Colors.black,
+              ),
+            )
           ],
         ),
       ),

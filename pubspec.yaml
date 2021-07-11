@@ -34,7 +34,7 @@ dependencies:
   bible: ^0.7.5
   table_calendar: ^2.3.3
   better_player: ^0.0.30
-  overlay_support: ^1.0.5
+ # overlay_support: ^1.0.5
   url_launcher: ^5.7.10
   flutter_spinkit: ^3.1.0
   #shared_preferences: 0.5.4+5

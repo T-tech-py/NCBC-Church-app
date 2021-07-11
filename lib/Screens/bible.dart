@@ -107,6 +107,12 @@ class _BibleState extends State<Bible> {
   }
 
   @override
+  void initState() {
+    getBible();
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
